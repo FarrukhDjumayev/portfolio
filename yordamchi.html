@@ -3,47 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>portfolio</title>
+  <title>Responsive Navbar</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-[#101018] text-white">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
+<body class="w-full bg-[#101018] text-white font-['Inter']">
   <nav class="w-4/5 mx-auto flex items-center justify-between px-6 py-4 rounded-lg shadow-lg">
     <div class="text-2xl font-extrabold tracking-wide">
       Farrukh<span class="text-green-500">.</span>
     </div>
     <ul class="hidden md:flex space-x-8 text-sm font-medium">
-      <li><a href="#" class="relative text-white transition duration-300 ease-in-out 
-        hover:text-green-400
-        before:content-[''] before:absolute before:-bottom-1 before:left-0 
-        before:w-0 before:h-0.5 before:bg-green-400 before:transition-all 
-        before:duration-300 hover:before:w-full">Home</a></li>
-      <li><a href="#" class="relative text-white transition duration-300 ease-in-out 
-        hover:text-green-400
-        before:content-[''] before:absolute before:-bottom-1 before:left-0 
-        before:w-0 before:h-0.5 before:bg-green-400 before:transition-all 
-        before:duration-300 hover:before:w-full">Services</a></li>
-      <li><a href="#" class="relative text-white transition duration-300 ease-in-out 
-        hover:text-green-400
-        before:content-[''] before:absolute before:-bottom-1 before:left-0 
-        before:w-0 before:h-0.5 before:bg-green-400 before:transition-all 
-        before:duration-300 hover:before:w-full">Work</a></li>
-      <li><a href="#" class="relative text-white transition duration-300 ease-in-out 
-        hover:text-green-400
-        before:content-[''] before:absolute before:-bottom-1 before:left-0 
-        before:w-0 before:h-0.5 before:bg-green-400 before:transition-all 
-        before:duration-300 hover:before:w-full">About Us</a></li>
-      <li><a href="#" class="relative text-white transition duration-300 ease-in-out 
-        hover:text-green-400
-        before:content-[''] before:absolute before:-bottom-1 before:left-0 
-        before:w-0 before:h-0.5 before:bg-green-400 before:transition-all 
-        before:duration-300 hover:before:w-full">Blog</a></li>
+      <li><a href="#" class="relative text-white transition duration-300 ease-in-out hover:text-green-400 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-0.5 before:bg-green-400 before:transition-all before:duration-300 hover:before:w-full">Home</a></li>
+      <li><a href="#" class="relative text-white transition duration-300 ease-in-out hover:text-green-400 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-0.5 before:bg-green-400 before:transition-all before:duration-300 hover:before:w-full">Services</a></li>
+      <li><a href="#" class="relative text-white transition duration-300 ease-in-out hover:text-green-400 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-0.5 before:bg-green-400 before:transition-all before:duration-300 hover:before:w-full">Work</a></li>
+      <li><a href="#" class="relative text-white transition duration-300 ease-in-out hover:text-green-400 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-0.5 before:bg-green-400 before:transition-all before:duration-300 hover:before:w-full">About Us</a></li>
+      <li><a href="#" class="relative text-white transition duration-300 ease-in-out hover:text-green-400 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-0.5 before:bg-green-400 before:transition-all before:duration-300 hover:before:w-full">Blog</a></li>
     </ul>
     <button class="hidden md:block border border-green-500 text-white px-6 py-2 text-sm font-medium hover:bg-green-500 hover:text-black transition">
       Contact
@@ -84,14 +59,14 @@
         Call me
       </button>
     </div>
-    <div class="flex items-center justify-between mt-40" data-aos="fade-up-right">
-      <p class="text-4xl font-bold">1+ year exprience <br> studying</p>
+    <div class="flex items-center justify-between mt-40">
+      <p class="text-4xl font-bold">1+ year experience <br> studying</p>
       <div class="mt-8 text-gray-400">
         <div class="flex items-center gap-2">
           <div class="w-8 h-[2px] bg-green-500"></div>
           <p class="text-green-500 font-semibold">Frontend Development</p>
         </div>
-        <p class="mt-2" data-aos="fade-up-left">
+        <p class="mt-2">
           Mastering the skills to create responsive and <br> user-friendly websites and applications.
         </p>
       </div>
@@ -102,8 +77,7 @@
       <div class="h-[300px] bg-gray-800 text-white p-6 rounded-lg shadow-lg relative" data-aos="flip-left">
         <div class="flex items-center justify-start gap-2 mb-4">
           <div class="bg-green-500 w-8 h-8 rounded-full flex items-center justify-center">
-            <!-- Icon -->
-            <img src="./images/image copy.png " alt="Product Design" class="w-4 h-4">
+            <img src="./images/image-copy.png" alt="Product Design" class="w-4 h-4">
           </div>
         </div>
         <h3 class="text-lg font-bold mt-4">Product design</h3>
@@ -116,7 +90,6 @@
       <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg relative" data-aos="zoom-in-up">
         <div class="flex items-center justify-start gap-2 mb-4">
           <div class="bg-green-500 w-8 h-8 rounded-full flex items-center justify-center">
-            <!-- Icon -->
             <img src="./images/image.png" alt="Frontend Development" class="w-4 h-4">
           </div>
         </div>
@@ -131,7 +104,7 @@
       <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg relative" data-aos="flip-right">
         <div class="flex items-center justify-start gap-2 mb-4">
           <div class="bg-green-500 w-8 h-8 rounded-full flex items-center justify-center">
-            <img src="./images/image copy 3.png" alt="Brand Strategy" class="w-4 h-4">
+            <img src="./images/image-copy-3.png" alt="Brand Strategy" class="w-4 h-4">
           </div>
         </div>
         <h3 class="text-lg font-bold">Brand strategy</h3>
@@ -142,12 +115,12 @@
       </div>
     </div>
   </div>
-  <div class="bg-gray-900 text-white">
+  <div class="bg-gray-900 text-white w-full">
     <section class="mx-auto w-4/5">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-12">
-          <h2 class="text-3xl font-bold py-10 mt-8" data-aos="flip-right">Some of my favorite projects.</h2>
-          <a href="#" class="text-green-500 hover:underline" data-aos="flip-left">View All Project</a>
+          <h2 class="text-3xl font-bold py-10 mt-8">Some of my favorite projects.</h2>
+          <a href="#" class="text-green-500 hover:underline">View All Project</a>
         </div>
   
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
@@ -185,16 +158,15 @@
   </div>
   <section class="bg-gray-900 text-white py-16">
     <div class="text-center px-4">
-      <h2 class="text-green-400 text-lg font-bold uppercase" data-aos="zoom-in-left">Testimonials</h2>
-      <h3 class="text-2xl md:text-3xl font-semibold mt-2" data-aos="zoom-in-right">My Happy Clients</h3>
+      <h2 class="text-green-400 text-lg font-bold uppercase">Testimonials</h2>
+      <h3 class="text-2xl md:text-3xl font-semibold mt-2">My Happy Clients</h3>
     </div>
   
-    <div class="max-w-6xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4" data-aos="fade-up"
-    data-aos-duration="3000">
+    <div class="max-w-6xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
       <!-- Testimonial 1 -->
       <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
         <div class="flex items-center mb-4">
-          <img src="./images/image copy 4.png  " alt="Client 1" class="w-12 h-12 rounded-full" data-aos="flip-left">
+          <img src="./images/client1.jpg" alt="Client 1" class="w-12 h-12 rounded-full">
           <div class="ml-4">
             <h4 class="text-lg font-semibold">John Doe</h4>
             <p class="text-sm text-gray-400">CEO, TechCorp</p>
@@ -208,7 +180,7 @@
       <!-- Testimonial 2 -->
       <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
         <div class="flex items-center mb-4">
-          <img src="./images/image copy 4.png" alt="Client 2" class="w-12 h-12 rounded-full" data-aos="flip-up">
+          <img src="./images/client2.jpg" alt="Client 2" class="w-12 h-12 rounded-full">
           <div class="ml-4">
             <h4 class="text-lg font-semibold">Jane Smith</h4>
             <p class="text-sm text-gray-400">Founder, DesignPro</p>
@@ -222,7 +194,7 @@
       <!-- Testimonial 3 -->
       <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
         <div class="flex items-center mb-4">
-          <img src="./images/image copy 4.png" alt="Client 3" class="w-12 h-12 rounded-full" data-aos="flip-right">
+          <img src="./images/client3.jpg" alt="Client 3" class="w-12 h-12 rounded-full">
           <div class="ml-4">
             <h4 class="text-lg font-semibold">Alex Johnson</h4>
             <p class="text-sm text-gray-400">CTO, InnovateTech</p>
@@ -234,61 +206,4 @@
       </div>
     </div>
   </section>
-  <!-- Footer Section -->
-<footer class="bg-gray-900 text-white py-10">
-  <div class="w-4/5 mx-auto">
-    <div class="flex flex-col md:flex-row justify-between items-center pb-8 border-b border-gray-700">
-      <div>
-        <h2 class="text-3xl font-bold" data-aos="fade-up-right">Have any project in mind?</h2>
-        <p class="text-gray-400 mt-2" data-aos="fade-up-left">Feel free to contact me or just say a friendly hello!</p>
-      </div>
-      <button class="mt-6 md:mt-0 bg-green-500 text-white px-6 py-3 font-medium text-lg rounded-md hover:bg-green-600 transition" data-aos="flip-left">
-        Contact Me
-      </button>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
-      <div>
-        <h3 class="text-xl font-semibold" data-aos="flip-left">Farrukh<span class="text-green-500">.</span></h3>
-      </div>
-      <div>
-        <h4 class="text-lg font-semibold">Information</h4>
-        <ul class="mt-2 space-y-1 text-gray-400">
-          <li>+998 88 811 05 42</li>
-          <li>farrukhdjumayev0542@gmail.com</li>
-          <li>Fergana, Besharik</li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="text-lg font-semibold">Social Media</h4>
-        <ul class="mt-2 space-y-1 text-gray-400">
-          <li><a href="https://www.instagram.com/farrukh.djumayev/?__pwa=1" class="hover:text-green-400 transition">Instagram</a></li>
-          <li><a href="https://t.me/Farrukh_0542" class="hover:text-green-400 transition">Telegramm</a></li>
-          <li><a href="#" class="hover:text-green-400 transition">LinkedIn</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="mt-10 text-center text-gray-400 border-t border-gray-700 pt-4">
-      <p>Design and develop by <a href="#" class="text-green-500 hover:underline">Farrukh</a></p>
-      <p>&copy; 2024</p>
-    </div>
-  </div>
-</footer>
-
   
-  
-  
-  <script>
-    const menuToggle = document.getElementById('menu-toggle');
-    const mobileMenu = document.getElementById('mobile-menu');
-    
-    menuToggle.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
-    });
-  </script>
-  
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-</html>
